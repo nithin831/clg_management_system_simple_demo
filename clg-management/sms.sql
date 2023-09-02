@@ -4,14 +4,14 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
-`
+
 
 
 -- --------------------------------------------------------
 
-
+--
 -- Table structure for table `login`
-
+--
 
 CREATE TABLE `login` (
   `s_no` int(11) NOT NULL,
