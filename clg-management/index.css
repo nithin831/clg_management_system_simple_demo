@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    background-image: url(bg-img.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.navbar p{
+    font-size: 30px;
+    float: left;
+    padding: 20px 100px;
+    height: auto;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display:inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(238, 230, 230);
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+   background: #4d4f54;
+   border-radius: 2px;
+}
+
+.wrapper .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+    
+}
+
+.center h1{
+    color: #b3ffbd;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+    
+}
+
+.ceneter h2{
+    color: rgb(26, 15, 15);
+    font-size: 70px;
+    font-weight: bold;
+    width: 885px;
+    text-align: center;
+}
+
+.center .buttons{
+    margin: 35px 280px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background-color: red;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.buttons .btn{
+    margin-left: 25px;
+}
+
+.buttons button:hover{
+    background: #cc0000;
+}
+
+nav ul li ul{
+    display: block;
+    position: absolute;
+    background-color: #fff;
+}
